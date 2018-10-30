@@ -1,0 +1,16 @@
+{
+  "name": "clipboard_image_paste",
+  "version": "2.0.0",
+  "description": "Redmine clipboard_image_paste plugin",
+  "dependencies": {
+    "jcrop": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-npm-dist": "^1.0.2",
+    "gulp-rename": "^1.4.0"
+  },
+  "scripts": {
+    "copy": "gulp copy:js copy:css"
+  }
+}
